@@ -2,6 +2,8 @@
 
 Opinionated templates for Xcode.
 
+![](https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/header.png)
+
 ## Installation
 
 The project templates should be copied into the  `~/Library/Developer/Xcode/Templates/Projcet\ Templates` folder. You can do this by running the `./copy` script. This will recursively copy the folders containing the project templates. Alternatively you can symlink the folders by running the `./symlink` script. 
@@ -17,3 +19,5 @@ This is not an actual project template. It contains the base configuration for a
 ### iOS Minimalist
 
 This is a minimalistic template for an iOS project. It configures the app to use scenes without storyboards.
+
+![](https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/ios_minimalist.png)
