@@ -2,7 +2,7 @@
 
 Opinionated templates for Xcode 11.
 
-![](https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/header.png)
+<img src="https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/header.png" width="450">
 
 ## Installation
 
@@ -20,4 +20,4 @@ This is not an actual project template. It contains the base configuration for a
 
 This is a minimalistic template for an iOS project. It configures the app to use scenes without storyboards.
 
-![](https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/ios_minimalist.png)
+<img src="https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/ios_minimalist.png" width="250">
