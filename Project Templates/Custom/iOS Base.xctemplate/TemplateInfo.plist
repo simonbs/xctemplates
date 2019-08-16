@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>dk.simonbs.dt.unit.iosBase</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.applicationBase</string>
+		<string>com.apple.dt.unit.iosBase_Definitions</string>
+		<string>com.apple.dt.unit.crossPlatformBase</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>TargetIdentifier</key>
+			<string>com.apple.dt.iosApplicationTarget</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>latest_iphoneos</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+			</dict>
+			<key>Configurations</key>
+			<dict>
+				<key>Release</key>
+				<dict>
+					<key>VALIDATE_PRODUCT</key>
+					<string>YES</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>Info.plist:iPhone</string>
+		<string>Info.plist:UIRequiredDeviceCapabilities:base</string>
+		<string>Info.plist:LaunchScreen</string>
+		<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+		<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
+		<string>Info.plist:ITSAppUsesNonExemptEncryption</string>
+		<string>Info.plist:UIApplicationSceneManifest</string>
+		<string>Base.lproj/LaunchScreen.storyboard</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Info.plist:iPhone</key>
+		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+&lt;true/&gt;
+</string>
+		<key>Info.plist:UIRequiredDeviceCapabilities</key>
+		<dict>
+			<key>Beginning</key>
+			<string>&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+&lt;array&gt;</string>
+			<key>End</key>
+			<string>&lt;/array&gt;</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>Info.plist:UIRequiredDeviceCapabilities:base</key>
+		<string>&lt;string&gt;armv7&lt;/string&gt;</string>
+		<key>Info.plist:statusBarTintForNavBar</key>
+		<string>&lt;key&gt;UIStatusBarTintParameters&lt;/key&gt;
+&lt;dict&gt;
+    &lt;key&gt;UINavigationBar&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;Style&lt;/key&gt;
+        &lt;string&gt;UIBarStyleDefault&lt;/string&gt;
+        &lt;key&gt;Translucent&lt;/key&gt;
+        &lt;false/&gt;
+    &lt;/dict&gt;
+&lt;/dict&gt;
+</string>
+		<key>Info.plist:UIStatusBarHidden</key>
+		<string>&lt;key&gt;UIStatusBarHidden&lt;/key&gt;
+&lt;true/&gt;
+</string>
+		<key>Info.plist:LaunchScreen</key>
+		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
+&lt;string&gt;LaunchScreen&lt;/string&gt;
+</string>
+		<key>Info.plist:ITSAppUsesNonExemptEncryption</key>
+		<string>&lt;key&gt;ITSAppUsesNonExemptEncryption&lt;/key&gt;
+&lt;false/&gt;
+</string>
+		<key>Info.plist:UIApplicationSceneManifest</key>
+		<string>&lt;key&gt;UIApplicationSceneManifest&lt;/key&gt;
+&lt;dict&gt;
+&lt;key&gt;UIApplicationSupportsMultipleScenes&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;UISceneConfigurations&lt;/key&gt;
+&lt;dict&gt;
+&lt;key&gt;UIWindowSceneSessionRoleApplication&lt;/key&gt;
+&lt;array&gt;
+&lt;dict&gt;
+&lt;key&gt;UISceneConfigurationName&lt;/key&gt;
+&lt;string&gt;Default Configuration&lt;/string&gt;
+&lt;key&gt;UISceneDelegateClassName&lt;/key&gt;
+&lt;string&gt;$(PRODUCT_MODULE_NAME).SceneDelegate&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/array&gt;
+&lt;/dict&gt;
+&lt;/dict&gt;
+</string>
+		<key>Base.lproj/LaunchScreen.storyboard</key>
+		<dict>
+			<key>Path</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>SortOrder</key>
+			<integer>101</integer>
+		</dict>
+	</dict>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+			<string>iPhone Developer</string>
+			<key>SWIFT_VERSION</key>
+			<string>5.0</string>
+		</dict>
+	</dict>
+	<key>Options</key>
+	<array/>
+</dict>
+</plist>

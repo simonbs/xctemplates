@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+TEMPLATES_DIR="$HOME/Library/Developer/Xcode/Templates/"
+PROJECT_TEMPLATES_DIR="$TEMPLATES_DIR/Project Templates"
+PROJECT_TEMPLATES_SRC_DIR="$DIR/Project Templates/Custom"
+PROJECT_TEMPLATES_DST_DIR="$PROJECT_TEMPLATES_DIR/Custom"
+mkdir -p "$PROJECT_TEMPLATES_DIR"
+if [ ! \( -e "$PROJECT_TEMPLATES_DST_DIR" \) ] 
+then
+  ln -s "$PROJECT_TEMPLATES_SRC_DIR" "$PROJECT_TEMPLATES_DST_DIR"
+fi
