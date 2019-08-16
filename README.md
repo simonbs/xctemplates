@@ -1,6 +1,6 @@
 # xctemplates
 
-Opinionated templates for Xcode.
+Opinionated templates for Xcode 11.
 
 ![](https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/header.png)
 
