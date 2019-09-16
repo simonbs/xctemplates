@@ -6,7 +6,7 @@ Opinionated templates for Xcode 11.
 
 ## Installation
 
-The project templates should be copied into the  `~/Library/Developer/Xcode/Templates/Projcet\ Templates` folder. You can do this by running the `./copy` script. This will recursively copy the folders containing the project templates. Alternatively you can symlink the folders by running the `./symlink` script. 
+The project templates should be copied into the  `~/Library/Developer/Xcode/Templates/Project\ Templates` folder. You can do this by running the `./copy` script. This will recursively copy the folders containing the project templates. Alternatively you can symlink the folders by running the `./symlink` script. 
 
 ## Project Templates
 
