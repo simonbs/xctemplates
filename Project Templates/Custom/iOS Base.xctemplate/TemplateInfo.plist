@@ -55,6 +55,7 @@
 		<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
 		<string>Info.plist:ITSAppUsesNonExemptEncryption</string>
 		<string>Info.plist:UIApplicationSceneManifest</string>
+		<string>Info.plist:UIApplicationSupportsIndirectInputEvents</string>
 		<string>Base.lproj/LaunchScreen.storyboard</string>
 	</array>
 	<key>Definitions</key>
@@ -117,6 +118,10 @@
 &lt;/array&gt;
 &lt;/dict&gt;
 &lt;/dict&gt;
+</string>
+		<key>Info.plist:UIApplicationSupportsIndirectInputEvents</key>
+		<string>&lt;key&gt;UIApplicationSupportsIndirectInputEvents&lt;/key&gt;
+&lt;true/&gt;
 </string>
 		<key>Base.lproj/LaunchScreen.storyboard</key>
 		<dict>
