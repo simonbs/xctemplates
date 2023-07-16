@@ -28,13 +28,21 @@
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
+				<string>1,2,6,7</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>latest_iphoneos</string>
 				<key>CODE_SIGN_IDENTITY</key>
 				<string>iPhone Developer</string>
+				<key>SUPPORTED_PLATFORMS</key>
+				<string>iphoneos iphonesimulator xros xrsimulator</string>
+				<key>SUPPORTS_MACCATALYST</key>
+				<string>YES</string>
+				<key>SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD</key>
+				<string>NO</string>
+				<key>SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD</key>
+				<string>NO</string>
 				<key>INFOPLIST_FILE</key>
 				<string>$(PRODUCT_NAME)/Info.plist</string>
 				<key>INFOPLIST_KEY_UILaunchStoryboardName</key>
