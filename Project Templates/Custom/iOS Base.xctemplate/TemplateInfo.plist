@@ -35,6 +35,16 @@
 				<string>latest_iphoneos</string>
 				<key>CODE_SIGN_IDENTITY</key>
 				<string>iPhone Developer</string>
+				<key>INFOPLIST_FILE</key>
+				<string>$(PRODUCT_NAME)/Info.plist</string>
+				<key>INFOPLIST_KEY_UILaunchStoryboardName</key>
+				<string>LaunchScreen</string>
+				<key>INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad</key>
+				<string>UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight</string>
+				<key>INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone</key>
+				<string>UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight</string>
+				<key>INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents</key>
+				<string>YES</string>
 			</dict>
 			<key>Configurations</key>
 			<dict>
@@ -60,42 +70,6 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Info.plist:iPhone</key>
-		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
-&lt;true/&gt;
-</string>
-		<key>Info.plist:UIRequiredDeviceCapabilities</key>
-		<dict>
-			<key>Beginning</key>
-			<string>&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
-&lt;array&gt;</string>
-			<key>End</key>
-			<string>&lt;/array&gt;</string>
-			<key>Indent</key>
-			<integer>1</integer>
-		</dict>
-		<key>Info.plist:UIRequiredDeviceCapabilities:base</key>
-		<string>&lt;string&gt;armv7&lt;/string&gt;</string>
-		<key>Info.plist:statusBarTintForNavBar</key>
-		<string>&lt;key&gt;UIStatusBarTintParameters&lt;/key&gt;
-&lt;dict&gt;
-    &lt;key&gt;UINavigationBar&lt;/key&gt;
-    &lt;dict&gt;
-        &lt;key&gt;Style&lt;/key&gt;
-        &lt;string&gt;UIBarStyleDefault&lt;/string&gt;
-        &lt;key&gt;Translucent&lt;/key&gt;
-        &lt;false/&gt;
-    &lt;/dict&gt;
-&lt;/dict&gt;
-</string>
-		<key>Info.plist:UIStatusBarHidden</key>
-		<string>&lt;key&gt;UIStatusBarHidden&lt;/key&gt;
-&lt;true/&gt;
-</string>
-		<key>Info.plist:LaunchScreen</key>
-		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
-&lt;string&gt;LaunchScreen&lt;/string&gt;
-</string>
 		<key>Info.plist:ITSAppUsesNonExemptEncryption</key>
 		<string>&lt;key&gt;ITSAppUsesNonExemptEncryption&lt;/key&gt;
 &lt;false/&gt;
@@ -118,10 +92,6 @@
 &lt;/array&gt;
 &lt;/dict&gt;
 &lt;/dict&gt;
-</string>
-		<key>Info.plist:UIApplicationSupportsIndirectInputEvents</key>
-		<string>&lt;key&gt;UIApplicationSupportsIndirectInputEvents&lt;/key&gt;
-&lt;true/&gt;
 </string>
 		<key>Base.lproj/LaunchScreen.storyboard</key>
 		<dict>
