@@ -66,14 +66,8 @@
 	</array>
 	<key>Nodes</key>
 	<array>
-		<string>Info.plist:iPhone</string>
-		<string>Info.plist:UIRequiredDeviceCapabilities:base</string>
-		<string>Info.plist:LaunchScreen</string>
-		<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
-		<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
 		<string>Info.plist:ITSAppUsesNonExemptEncryption</string>
 		<string>Info.plist:UIApplicationSceneManifest</string>
-		<string>Info.plist:UIApplicationSupportsIndirectInputEvents</string>
 		<string>Base.lproj/LaunchScreen.storyboard</string>
 	</array>
 	<key>Definitions</key>
