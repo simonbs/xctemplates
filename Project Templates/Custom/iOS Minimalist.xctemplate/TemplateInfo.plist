@@ -5,10 +5,10 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>dk.simonbs.dt.unit.iosMinimalist</string>
+	<string>dk.simonbs.dt.unit.minimalist</string>
 	<key>Ancestors</key>
 	<array>
-		<string>dk.simonbs.dt.unit.iosBase</string>
+		<string>dk.simonbs.dt.unit.base</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
