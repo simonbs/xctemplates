@@ -18,6 +18,33 @@
 	<integer>1</integer>
 	<key>CFBundleIdentifier</key>
 	<string></string>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Name</key>
+					<string>Run SwiftLint</string>
+					<key>Class</key>
+					<string>ShellScript</string>
+					<key>ShellPath</key>
+					<string>/bin/sh</string>
+					<key>ShellScript</key>
+					<string>#!/bin/bash
+export PATH=&quot;$PATH:/opt/homebrew/bin&quot;
+if which swiftlint &gt;/dev/null; then
+  swiftlint
+else
+  echo &quot;warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint&quot;
+fi
+</string>
+					<key>BasedOnDependencyAnalysis</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+	</array>
 	<key>Nodes</key>
 	<array>
 		<string>Source/AppDelegate.swift</string>
@@ -25,6 +52,7 @@
 		<string>Source/Main/MainView.swift</string>
 		<string>Source/Main/MainViewController.swift</string>
 		<string>Assets.xcassets</string>
+		<string>.swiftlint.yml</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -70,6 +98,15 @@
 			</array>
 			<key>Path</key>
 			<string>Source/Main/MainViewController.swift</string>
+		</dict>
+		<key>.swiftlint.yml</key>
+		<dict>
+			<key>TargetIdentifiers</key>
+			<array/>
+			<key>Group</key>
+			<array/>
+			<key>Path</key>
+			<string>.swiftlint.yml</string>
 		</dict>
 	</dict>
 	<key>Options</key>
