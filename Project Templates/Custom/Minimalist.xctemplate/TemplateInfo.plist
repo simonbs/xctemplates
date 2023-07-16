@@ -52,7 +52,7 @@ fi
 		<string>Source/Main/MainView.swift</string>
 		<string>Source/Main/MainViewController.swift</string>
 		<string>Assets.xcassets</string>
-		<string>.swiftlint.yml</string>
+		<string>../.swiftlint.yml</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -99,7 +99,7 @@ fi
 			<key>Path</key>
 			<string>Source/Main/MainViewController.swift</string>
 		</dict>
-		<key>.swiftlint.yml</key>
+		<key>../.swiftlint.yml</key>
 		<dict>
 			<key>TargetIdentifiers</key>
 			<array/>
