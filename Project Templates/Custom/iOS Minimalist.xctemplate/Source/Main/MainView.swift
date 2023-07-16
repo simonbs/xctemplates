@@ -1,11 +1,3 @@
-//
-//  ___FILENAME___
-//  ___PROJECTNAME___
-//
-//  Created by ___FULLUSERNAME___ on ___DATE___.
-//  ___COPYRIGHT___
-//
-
 import UIKit
 
 final class MainView: UIView {
@@ -23,7 +15,5 @@ final class MainView: UIView {
         backgroundColor = .systemBackground
     }
 
-    private func setupLayout() {
-
-    }
+    private func setupLayout() {}
 }
