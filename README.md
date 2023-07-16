@@ -12,12 +12,18 @@ The project templates should be copied into the  `~/Library/Developer/Xcode/Temp
 
 Below is a brief description of the templates in this repository.
 
-### iOS Base
+### Base
 
-This is not an actual project template. It contains the base configuration for an iOS project an is inherited by other project templates.
+This is not an actual project template. It contains the base configuration for a multiplatform project that supports iOS, iPadOS, Mac Catalyst, and visionOS. The template is inherited by other project templates.
 
-### iOS Minimalist
+### Minimalist
 
-This is a minimalistic template for an iOS project. It configures the app to use scenes without storyboards.
+This is a minimalistic template for a multiplatform project with the following configuration:
 
-<img src="https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/ios_minimalist.png" width="250">
+- Supports iOS, iPadOS, Mac Catalyst, and visionOS.
+- Placeholder app icon.
+- Uses scenes and no storyboards.
+- Sets "App Uses Non-Exempt Encryption" to false.
+- Adds a "Run SwiftLint" build phase.
+
+<img src="https://raw.githubusercontent.com/simonbs/xctemplates/master/imgs/minimalist.png" width="250">
