@@ -20,8 +20,8 @@
 	<string></string>
 	<key>Nodes</key>
 	<array>
-		<string>Source/Application/AppDelegate.swift</string>
-		<string>Source/Application/SceneDelegate.swift</string>
+		<string>Source/AppDelegate.swift</string>
+		<string>Source/SceneDelegate.swift</string>
 		<string>Source/Main/MainView.swift</string>
 		<string>Source/Main/MainViewController.swift</string>
 		<string>Assets.xcassets</string>
@@ -33,25 +33,23 @@
 			<key>Path</key>
 			<string>Assets.xcassets</string>
 		</dict>
-		<key>Source/Application/AppDelegate.swift</key>
+		<key>Source/AppDelegate.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Source</string>
-				<string>Application</string>
 			</array>
 			<key>Path</key>
-			<string>Source/Application/AppDelegate.swift</string>
+			<string>Source/AppDelegate.swift</string>
 		</dict>
-		<key>Source/Application/SceneDelegate.swift</key>
+		<key>Source/SceneDelegate.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Source</string>
-				<string>Application</string>
 			</array>
 			<key>Path</key>
-			<string>Source/Application/SceneDelegate.swift</string>
+			<string>Source/SceneDelegate.swift</string>
 		</dict>
 		<key>Source/Main/MainView.swift</key>
 		<dict>
