@@ -18,6 +18,8 @@
 	<integer>1</integer>
 	<key>CFBundleIdentifier</key>
 	<string></string>
+	<key>NameOfInitialFileForEditor</key>
+	<string>MainViewController.swift</string>
 	<key>Targets</key>
 	<array>
 		<dict>
