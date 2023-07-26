@@ -49,8 +49,8 @@ fi
 	<array>
 		<string>Source/AppDelegate.swift</string>
 		<string>Source/SceneDelegate.swift</string>
-		<string>Source/Main/MainView.swift</string>
-		<string>Source/Main/MainViewController.swift</string>
+		<string>Source/MainView.swift</string>
+		<string>Source/MainViewController.swift</string>
 		<string>Assets.xcassets</string>
 		<string>../.swiftlint.yml</string>
 	</array>
@@ -79,25 +79,23 @@ fi
 			<key>Path</key>
 			<string>Source/SceneDelegate.swift</string>
 		</dict>
-		<key>Source/Main/MainView.swift</key>
+		<key>Source/MainView.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Source</string>
-				<string>Main</string>
 			</array>
 			<key>Path</key>
-			<string>Source/Main/MainView.swift</string>
+			<string>Source/MainView.swift</string>
 		</dict>
-		<key>Source/Main/MainViewController.swift</key>
+		<key>Source/MainViewController.swift</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Source</string>
-				<string>Main</string>
 			</array>
 			<key>Path</key>
-			<string>Source/Main/MainViewController.swift</string>
+			<string>Source/MainViewController.swift</string>
 		</dict>
 		<key>../.swiftlint.yml</key>
 		<dict>
